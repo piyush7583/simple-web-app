@@ -6,7 +6,7 @@ pipeline {
         stage('Building') {
             steps {
                 echo 'The Code will be now be built into an artifact'
-                echo ' morning '
+                echo ' morning good'
             }
         }
         stage('Artifact Archiving') {
